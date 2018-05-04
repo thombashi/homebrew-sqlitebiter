@@ -1,8 +1,9 @@
 class Sqlitebiter < Formula
   desc "A CLI tool to convert CSV/Excel/HTML/JSON/LTSV/Markdown/SQLite/TSV/Google-Sheets to a SQLite database file."
   homepage "https://github.com/thombashi/sqlitebiter"
-  url "https://github.com/thombashi/sandbox/releases/download/v0.0.1/sqlitebiter_macos_amd64.tar.gz"
-  sha256 "81685066e237eb6e03cbc25381c02f477402c9edb1b10803e3661f43b6c548d6"
+  url "https://github.com/thombashi/sqlitebiter/releases/download/v0.14.0/sqlitebiter_macos_amd64.tar.gz"
+  version "0.14.0"
+  sha256 "993aadfc8e35641d6f21f7fb11d08a5be1fd660372cb1444d2c4c7e1f1f10cbc"
 
   def install
     bin.install "sqlitebiter"
